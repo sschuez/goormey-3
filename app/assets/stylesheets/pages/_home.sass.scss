@@ -1,0 +1,109 @@
+@use "../config.sass.scss" as *;
+
+// Specific CSS for your home-page
+.background-main {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: $background;
+}
+
+h1 {
+  color: $red-middle;
+}
+
+h2 {
+  color: $red-middle;
+}
+
+h3 {
+  color: $red-middle;
+}
+
+h4 {
+  color: $red-middle;
+  font-weight: bold;
+}
+
+p {
+  color: $red-middle;
+}
+
+label {
+  color: $red-middle;
+  font-weight: bold;
+}
+
+input[type="text"], textarea {
+  background-color: $brown-light; 
+}
+
+
+.hidden {
+  display: none;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .background-main {
+    padding: 12px 12px 64px 12px; 
+  }
+  textarea {
+    margin-bottom: 3px;
+    margin-top: 2px;
+  }
+  
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .background-main {
+    padding: 12px 24px 64px 24px; 
+  }
+  
+  
+    textarea {
+      min-width: 350px;
+    }
+  
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .background-main {
+    padding: 12px 36px 64px 36px 0; 
+  }
+
+  textarea {
+    min-width: 430px;
+  }
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .background-main {
+    padding: 24px 150px 64px 150px; 
+  }
+  
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .background-main {
+    padding: 24px 200px 64px 200px; 
+  }
+  
+}
+

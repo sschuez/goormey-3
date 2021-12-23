@@ -1,0 +1,31 @@
+@use "../config.sass.scss" as *;
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: $background-complimentary-light;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.dropdown-menu {
+  border-radius: 25px;
+  background-color: $background-complimentary-light;
+  border: solid 1px $red-middle;
+  box-shadow: 2px 1px 1px $background-complimentary-dark;
+}
+
+.dropdown-menu a {
+  color: $red-middle;
+}
+
+.dropdown-item:hover {
+  background-color: $background;
+  border-radius: 25px;
+  color: $red-middle;
+}

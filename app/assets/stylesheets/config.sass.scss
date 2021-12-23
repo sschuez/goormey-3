@@ -1,0 +1,62 @@
+// FONTS
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+
+// Define fonts for body and headers
+$body-font: "Work Sans", "Helvetica", "sans-serif";
+$headers-font: "Nunito", "Helvetica", "sans-serif";
+
+// To use a font file (.woff) uncomment following lines
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
+
+// VARIABLES COLOUR
+$red: #FD1015;
+$blue: #167FFB;
+$yellow: #FFC65A;
+$orange: #E67E22;
+$green: #1EDD88;
+$gray: #0E0000;
+$light-gray: #F4F4F4;
+
+$background: #FCF4EE;
+$background-complimentary-light: #FAD7C6;
+$background-complimentary-dark: #F3E8E2;
+$misty-rose: #FFECEB;
+
+$brown-dark: #391B05;
+$brown-middle: #A84D10;
+$brown-light: #F9C9B3;
+
+$red-middle: #660700;
+$red-very-light: #FFECEB;
+
+$bright-coral: #FF4B3E;
+$bright-yellow: yellow;
+$dark-green: #4d908e;
+
+// VARIABLES BOOTSTRAP
+// General style
+$font-family-sans-serif:  $body-font;
+$headings-font-family:    $headers-font;
+$body-bg:                 $light-gray;
+$font-size-base: 1rem;
+
+// Colors
+$body-color: $gray;
+$primary:    $blue;
+$success:    $green;
+$info:       $yellow;
+$danger:     $red;
+$warning:    $orange;
+
+// Buttons & inputs' radius
+$border-radius:    2px;
+$border-radius-lg: 2px;
+$border-radius-sm: 2px;
